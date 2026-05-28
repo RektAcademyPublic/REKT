@@ -45,8 +45,8 @@ We don't do "hello world". This repository is built by operators, for operators.
 *   **`/scripts`**: Automation tooling, custom reconnaissance payloads, smart contract scanners, and heuristic analysis utilities.
 *   **`/OS`**: Configurations, dotfiles, and build scripts for custom offensive operating systems and hardened environments.
 *   **`/Labs`**: 
-    *   `/Web2`: Infrastructure-as-Code (Terraform/Docker) for spinning up vulnerable network targets and AD domains.
-    *   `/Web3`: Local testnets, vulnerable Solidity contracts, and Flash Loan exploitation environments.
+    *   `/Web2`: Kali VPN packs
+    *   `/Web3`: ZIION VPN packs
 *   **`/Academy`**:
     *   `/Web2`: Open-source curriculum, methodologies, and cheat sheets for the traditional offensive lifecycle.
     *   `/Web3`: EVM architecture teardowns, deep-dive vulnerability classifications, and auditing guides.
