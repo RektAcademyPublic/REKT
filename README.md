@@ -51,9 +51,11 @@ We don't do "hello world". This repository is built by operators, for operators.
 *   **`/Exploits`**: Verified Proof-of-Concept (PoC) scripts, weaponized payloads, and zero-day research data.
 *   **`/scripts`**: Automation tooling, custom reconnaissance payloads, smart contract scanners, and heuristic analysis utilities.
 *   **`/OS`**: Configurations, dotfiles, and build scripts for custom offensive operating systems and hardened environments.
-*   **`/Labs`**: 
-    *   `/Web2`: Kali VPN packs
-    *   `/Web3`: ZIION VPN packs
+*   **`/Labs`**: A massive collection of our own custom-built offensive scenarios, alongside verified forks of industry-leading targets.
+    > [!IMPORTANT]
+    > **Zero Local Configuration Required.** You do not need to download, build, or troubleshoot these environments locally. We host all targets dynamically in our cloud. Simply download the provided VPN configuration packs, connect to the lab-net, and start attacking.
+    *   **`/Web2`**: Kali Linux VPN configuration packs for traditional infrastructure and web application targets.
+    *   **`/Web3`**: ZIION OS VPN configuration packs for smart contract and blockchain-based targets.
 *   **`/Academy`**:
     *   `/Web2`: Open-source curriculum, methodologies, and cheat sheets for the traditional offensive lifecycle.
     *   `/Web3`: EVM architecture teardowns, deep-dive vulnerability classifications, and auditing guides.
