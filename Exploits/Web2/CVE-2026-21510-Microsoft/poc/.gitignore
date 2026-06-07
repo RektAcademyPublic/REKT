@@ -1,0 +1,180 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  - These files are those created by pyinstaller
+#  - Usually these files are written in ALL_CAPS because they are usually
+#    generated on the command line.
+#  - Don't use *.lnk files (Windows) since .lnk is a Windows shortcut file
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller generated LNKs (CRUCIAL pour ton projet)
+*.lnk
+*.lnk~
+test*.lnk
+sample*.lnk
+exploit*.lnk
+poc*.lnk
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pipenv_run_success
+Pipfile.lock
+
+# VS Code / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# IDEs
+.vscode/settings.json
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/caches
+.idea/dictionaries
+.idea/shelf
+.idea/contentModel.xml
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+
+# Windows
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+# Backup files
+*.bak
+*.swp
+*~
+
+# Sensitive (CRUCIAL pour red team)
+*.pem
+*.key
+*.pub
+*.crt
+*.cer
+*.jks
+.id_rsa
+.id_dsa
+*.p12
+*.pfx
+*.keystore
+client_secrets.json
+credentials.json
+token.json
+token.pickle
+client_secret.json
+config.json
+.env.*
+secrets.json
+passwords.txt
+creds.txt
+
+# Payloads tests (sécurité)
+payloads/
+test_payloads/
+shells/
+beacons/
+*.exe
+*.dll
+*.bin
+*.ps1
+*.bat
+*.vbs
+*.js
+*.jar
+
+# Debug outputs
+debug/
+output/
+results/
+*.txt~
+*.out
+*.tmp
