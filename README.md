@@ -48,9 +48,12 @@ We don't do "hello world". This repository is built by operators, for operators.
 
 ### 📁 Repository Architecture
 
-*   **`/Exploits`**: Verified Proof-of-Concept (PoC) scripts, weaponized payloads, and zero-day research data.
-*   **`/scripts`**: Automation tooling, custom reconnaissance payloads, smart contract scanners, and heuristic analysis utilities.
-*   **`/OS`**: Configurations, dotfiles, and build scripts for custom offensive operating systems and hardened environments.
+*   **`/Exploits`**: 
+    *The Database of Ruin.* A continuously updated arsenal of verified Proof-of-Concept (PoC) scripts, weaponized payloads, and zero-day research data. This directory tracks bleeding-edge vulnerabilities across Web2 infrastructure and Web3 smart contracts, automatically syncing with global threat intelligence feeds.
+*   **`/scripts`**: 
+    *The Automation Engine.* A repository of custom offensive tooling designed to scale your attacks. Includes advanced reconnaissance payloads, automated smart contract vulnerability scanners, heuristic analysis utilities, and our proprietary bots.
+*   **`/OS`**: 
+    *The Hacker's Environment.* Configurations, dotfiles, and build architecture for our highly specialized offensive operating systems. Includes the raw setups for traditional Kali Linux penetration testing, our decentralized ZIION OS for blockchain forensics, and the ultimate hybrid: REKT OS.
 *   **`/Labs`**: A massive collection of our own custom-built offensive scenarios, alongside verified forks of industry-leading targets.
     > [!IMPORTANT]
     > **Zero Local Configuration Required.** You do not need to download, build, or troubleshoot these environments locally. We host all targets dynamically in our cloud. Simply download the provided VPN configuration packs, connect to the lab-net, and start attacking.
