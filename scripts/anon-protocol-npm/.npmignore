@@ -1,0 +1,12 @@
+/node_modules/
+/out/
+/docs/
+
+.DS_Store
+
+Dockerfile
+
+terms-agreement
+
+.github/
+operations
