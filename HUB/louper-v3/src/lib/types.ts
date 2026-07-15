@@ -1,0 +1,41 @@
+import type { Abi, AbiFunction, Address } from 'viem'
+
+export interface Contract {
+  name: string
+  address: Address
+  abi: Abi
+}
+
+export interface Diamond extends Contract {
+  facets: Contract[]
+}
+
+export interface ArgsResult {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  args: any[]
+  result: object | string | number | boolean | null
+  error?: string | undefined
+  value?: bigint | undefined
+}
+
+export type UpgradeStrategy = {
+  additions: Record<Address, string[]>
+  removals: Record<Address, string[]>
+  replacements: Record<Address, string[]>
+}
+
+export enum FacetCutAction {
+  Add = 0,
+  Replace = 1,
+  Remove = 2,
+}
+
+export interface FacetCut {
+  facetAddress: Address
+  action: FacetCutAction
+  functionSelectors: string[] | never[]
+}
+
+export type FacetData = Array<[Address, string[]]>
+
+export type FacetSelection = { value: AbiFunction[]; label: string; disable: boolean }

@@ -1,0 +1,25 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+
+# Ignore files for PNPM, NPM and YARN
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+bun.lock
+bun.lockb
+
+# Generated spec/agent docs — do not reformat
+.specify/
+specs/
+AGENTS.md
+.kit.yml
+components.json
+
+# shadcn-svelte generated components — keep as generated
+src/lib/components/ui/

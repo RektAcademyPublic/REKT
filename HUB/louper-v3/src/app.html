@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%sveltekit.assets%/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Louper - The Ethereum Diamond Inspector</title>
+    <meta name="twitter:title" content="Louper - The Ethereum Diamond Inspector" />
+    <meta name="description" content="Tool for inspecting Ethereum diamond smart contracts." />
+    <meta
+      name="twitter:description"
+      content="Tool for inspecting Ethereum diamond smart contracts."
+    />
+    <meta name="twitter:image" content="https://louper.dev/thumbnail.jpg" />
+    <meta property="og:image" content="https://louper.dev/thumbnail.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script
+      defer
+      data-domain="louper.dev"
+      src="https://analytics.mark3labs.com/js/script.js"
+    ></script>
+    %sveltekit.head%
+    <!-- Google AdSense loader injected in production only (see src/hooks.server.ts) -->
+  </head>
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents">%sveltekit.body%</div>
+    <!-- 100% privacy friendly analytics -->
+    <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+    <noscript>
+      <img
+        src="https://queue.simpleanalyticscdn.com/noscript.gif"
+        alt=""
+        referrerpolicy="no-referrer-when-downgrade"
+      />
+    </noscript>
+  </body>
+</html>

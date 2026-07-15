@@ -1,0 +1,12 @@
+data/*
+build
+.git
+.github
+.k8s
+node_modules
+.env
+.svelte-kit
+.vite
+*.log
+.DS_Store
+
